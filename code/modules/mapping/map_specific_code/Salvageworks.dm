@@ -4,7 +4,6 @@
 /turf/closed/wall/r_wall/mineable
 	name = "reinforced wall"
 	desc = "A huge chunk of reinforced metal used to separate rooms."
-	icon = 'icons/turf/walls/reinforced_wall.dmi' //ICON OVERRIDDEN IN NOVA AESTHETICS - SEE MODULE
 	icon_state = "reinforced_wall-0"
 	base_icon_state = "reinforced_wall"
 	opacity = TRUE
@@ -14,7 +13,6 @@
 	hardness = 10
 	sheet_type = /obj/item/stack/sheet/plasteel
 	sheet_amount = 1
-	girder_type = /obj/structure/girder/reinforced
 	explosive_resistance = 2
 	rad_insulation = RAD_HEAVY_INSULATION
 	rust_resistance = RUST_RESISTANCE_REINFORCED
@@ -44,6 +42,15 @@
         return FALSE
     dismantle_wall()
     return TRUE
+
+/turf/closed/wall/r_wall/mineable/dismantle_wall(devastated = FALSE, explode = FALSE)
+	if(devastated)
+		devastate_wall()
+	else
+		playsound(src, 'sound/items/tools/welder.ogg', 100, TRUE) //changeme
+		var/newgirder = break_wall()
+		if(newgirder) //maybe we don't /want/ a girder!
+			transfer_fingerprints_to(newgirder)
 
 /turf/closed/wall/r_wall/mineable/update_icon(updates=ALL)
 	. = ..()
