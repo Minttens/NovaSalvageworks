@@ -90,6 +90,17 @@
 				/obj/item/clothing/under/suit/nova/helltaker/skirt = 3,
 				/obj/item/clothing/under/dress/skirt/nova/medium = 5,
 				/obj/item/clothing/under/dress/skirt/nova/long = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/arrow = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/bones = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/crystal = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/fancy = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/heart = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/lines = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/runes = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/sepharim = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/stripe = 5,
+				/obj/item/clothing/under/dress/nova/giant_scarf/two_tone = 5,
 			),
 		),
 
@@ -182,6 +193,10 @@
 		/obj/item/clothing/suit/brownbattlecoat = 1,
 		/obj/item/clothing/suit/blackfurrich = 1,
 		/obj/item/clothing/suit/frenchtrench = 1,
+		/obj/item/clothing/suit/toggle/labcoat/nova/lalunevest = 2,
+		/obj/item/clothing/gloves/lalune_long = 2,
+		/obj/item/clothing/head/skrell_chain = 3,
+		/obj/item/clothing/head/skrell_chain/silver = 3,
 	)
 
 	contraband_nova = list(

@@ -62,8 +62,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -168,6 +166,12 @@
 	for(var/obj/item/part as anything in parts + mod)
 		part.icon = used_skin[MOD_ICON_OVERRIDE] || 'icons/obj/clothing/modsuit/mod_clothing.dmi'
 		part.worn_icon = used_skin[MOD_WORN_ICON_OVERRIDE] || 'icons/mob/clothing/modsuit/mod_clothing.dmi'
+		// NOVA EDIT ADDITION START
+		if(part.supports_variations_flags & CLOTHING_DIGITIGRADE_VARIATION)
+			part.worn_icon_digi = used_skin[MOD_DIGITIGRADE_ICON_OVERRIDE] || DIGITIGRADE_MODPARTS_FILE
+		if(part.supports_variations_flags & CLOTHING_SNOUTED_VARIATION)
+			part.worn_icon_muzzled = used_skin[MOD_SNOUT_ICON_OVERRIDE] || SNOUTED_MODPARTS_FILE
+		// NOVA EDIT ADDITION END
 		part.icon_state = "[skin]-[part.base_icon_state][mod.get_part_datum(part).sealed ? "-sealed" : ""]"
 		mod.wearer?.update_clothing(part.slot_flags)
 
@@ -205,8 +209,6 @@
 				SEALED_COVER = HEADCOVERSEYES,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
 				UNSEALED_MESSAGE = CHESTPLATE_UNSEAL_MESSAGE,
@@ -270,8 +272,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -322,6 +322,7 @@
 	slowdown_active = 1
 	allowed_suit_storage = list(
 		/obj/item/analyzer,
+		/obj/item/extinguisher,
 		/obj/item/fireaxe/metal_h2_axe,
 		/obj/item/pipe_dispenser,
 		/obj/item/t_scanner,
@@ -340,8 +341,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -414,8 +413,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -490,8 +487,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = THICKMATERIAL|STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT|HIDEBELT,
@@ -524,8 +519,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = THICKMATERIAL|STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT|HIDEBELT,
@@ -602,8 +595,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				UNSEALED_MESSAGE = CHESTPLATE_UNSEAL_MESSAGE,
 				SEALED_MESSAGE = CHESTPLATE_SEAL_MESSAGE,
@@ -676,8 +667,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -711,8 +700,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -793,8 +780,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -867,8 +852,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -936,8 +919,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1005,8 +986,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1080,8 +1059,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1150,8 +1127,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1227,8 +1202,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1262,8 +1235,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1337,8 +1308,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1414,8 +1383,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT|HIDEMUTWINGS,
 				CAN_OVERSLOT = TRUE,
@@ -1457,7 +1424,7 @@
 		Already light, when powered on, this MODsuit injects the wearer seemlessly with muscle-enhancing supplements, while adding piston strength \
 		to their legs. The combination of these mechanisms is very energy draining - but results in next to no speed reduction for the wearer.\
 		Over the years, many a rich person, including Nanotrasen officials with premium subscriptions, had their life or genes rescued thanks to the \
-		unrivaled speed of this suit. Equally as many, however, mysteriously dissapeared in the flash of these white suits after they forgot \
+		unrivaled speed of this suit. Equally as many, however, mysteriously disappeared in the flash of these white suits after they forgot \
 		to pay off said subscriptions in due time or publicly communicated unfavourable opinions on Interdyne's gene-modding tech and ethics. "
 	default_skin = "interdyne"
 	armor_type = /datum/armor/mod_theme_interdyne
@@ -1501,8 +1468,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1573,8 +1538,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL|CASTING_CLOTHES,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1617,7 +1580,7 @@
 		suits two or three times as thick. The nanomachines making up the outermost layer of armor \
 		are capable of shifting their form into almost-microscopic radiating fins, rendering the suit itself \
 		nigh-immune to even volcanic heat. It's entirely sealed against even the strongest acids, \
-		and the myoelectric artifical muscles of the suit leave it light as a feather during movement."
+		and the myoelectric artificial muscles of the suit leave it light as a feather during movement."
 	default_skin = "ninja"
 	armor_type = /datum/armor/mod_theme_ninja
 	resistance_flags = LAVA_PROOF|FIRE_PROOF|ACID_PROOF
@@ -1644,8 +1607,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1717,8 +1678,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1787,8 +1746,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1856,8 +1813,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1889,8 +1844,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -1973,8 +1926,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -2044,8 +1995,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -2110,8 +2059,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -2178,8 +2125,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL,
 				SEALED_CLOTHING = STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
@@ -2245,8 +2190,6 @@
 				SEALED_MESSAGE = HELMET_SEAL_MESSAGE,
 			),
 			/obj/item/clothing/suit/mod = list(
-				UNSEALED_LAYER = MOD_CHESTPLATE_LAYER,
-				SEALED_LAYER = MOD_CHESTPLATE_LAYER,
 				UNSEALED_CLOTHING = THICKMATERIAL|STOPSPRESSUREDAMAGE,
 				SEALED_INVISIBILITY = HIDEJUMPSUIT,
 				UNSEALED_MESSAGE = CHESTPLATE_UNSEAL_MESSAGE,
