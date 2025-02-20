@@ -1,0 +1,525 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plating,
+/area/space)
+"b" = (
+/obj/structure/chair/sofa/corp/left{
+	color = "#DE3A3A";
+	dir = 8;
+	pixel_x = 5
+	},
+/turf/open/floor/carpet,
+/area/space)
+"c" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/chem_dispenser/drinks/beer{
+	pixel_y = 6;
+	pixel_x = 2
+	},
+/turf/open/floor/carpet/neon,
+/area/space)
+"d" = (
+/turf/closed/wall,
+/area/space)
+"e" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/carpet/neon,
+/area/space)
+"f" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/plating,
+/area/space)
+"g" = (
+/turf/open/floor/carpet/purple,
+/area/space)
+"h" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/microwave/engineering{
+	pixel_y = 5
+	},
+/turf/open/floor/carpet/neon,
+/area/space)
+"i" = (
+/turf/open/floor/wood,
+/area/space)
+"j" = (
+/obj/structure/table/wood/poker,
+/obj/effect/spawner/random/entertainment/deck{
+	pixel_x = -6
+	},
+/turf/open/floor/carpet,
+/area/space)
+"k" = (
+/turf/open/floor/carpet/neon,
+/area/space)
+"l" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/wood/large,
+/area/space)
+"n" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/space)
+"o" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"p" = (
+/obj/structure/chair/sofa/corp/right{
+	color = "#DE3A3A";
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/space)
+"q" = (
+/obj/machinery/vending/cola/black,
+/turf/open/floor/carpet/neon,
+/area/space)
+"r" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/effect/spawner/random/entertainment/plushie,
+/obj/effect/turf_decal/siding/purple,
+/turf/open/floor/carpet/purple,
+/area/space)
+"s" = (
+/obj/modular_map_root/salvageworks{
+	name = "assistantroutelower";
+	key = "assistantroutelower"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"t" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/space)
+"u" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/vending/cigarette,
+/turf/open/floor/carpet,
+/area/space)
+"v" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"w" = (
+/obj/structure/table/wood/poker,
+/obj/effect/spawner/random/entertainment/gambling,
+/obj/effect/spawner/random/entertainment/drugs,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/space)
+"x" = (
+/obj/effect/turf_decal/siding/purple,
+/turf/open/floor/carpet/purple,
+/area/space)
+"y" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/machinery/computer/arcade/orion_trail,
+/turf/open/floor/carpet/neon,
+/area/space)
+"z" = (
+/obj/structure/chair/sofa/corp/left{
+	color = "#DE3A3A";
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/space)
+"A" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/carpet,
+/area/space)
+"B" = (
+/turf/open/floor/wood/large,
+/area/space)
+"C" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/chem_dispenser/drinks{
+	pixel_y = 6;
+	pixel_x = -2
+	},
+/turf/open/floor/carpet/neon,
+/area/space)
+"D" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 6
+	},
+/turf/open/floor/carpet/purple,
+/area/space)
+"F" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 10
+	},
+/turf/open/floor/carpet/neon,
+/area/space)
+"G" = (
+/obj/structure/table/wood/poker,
+/obj/item/stack/arcadeticket,
+/obj/effect/spawner/random/entertainment/dice,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/space)
+"H" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/space)
+"I" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"J" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/carpet/purple,
+/area/space)
+"K" = (
+/obj/structure/chair/sofa/corp/left{
+	color = "#DE3A3A";
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/space)
+"L" = (
+/obj/structure/table/wood/poker,
+/obj/item/coffee_cartridge,
+/turf/open/floor/wood/large,
+/area/space)
+"M" = (
+/obj/machinery/computer/slot_machine,
+/turf/open/floor/wood/large,
+/area/space)
+"N" = (
+/obj/structure/chair/sofa/corp/right{
+	color = "#DE3A3A";
+	dir = 8;
+	pixel_x = 5
+	},
+/turf/open/floor/carpet,
+/area/space)
+"O" = (
+/obj/machinery/roulette,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/space)
+"P" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"Q" = (
+/obj/structure/table/wood/poker,
+/obj/machinery/coffeemaker{
+	pixel_y = 9
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"R" = (
+/obj/machinery/computer/arcade/battle,
+/turf/open/floor/carpet/neon,
+/area/space)
+"T" = (
+/turf/open/floor/carpet,
+/area/space)
+"U" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/effect/spawner/random/clothing/kittyears_or_rabbitears,
+/obj/effect/turf_decal/siding/purple,
+/obj/effect/spawner/random/entertainment/toy,
+/turf/open/floor/carpet/purple,
+/area/space)
+"V" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"W" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/turf/open/floor/carpet/neon,
+/area/space)
+"X" = (
+/obj/effect/spawner/random/entertainment/arcade,
+/turf/open/floor/carpet/purple,
+/area/space)
+"Y" = (
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/carpet/neon,
+/area/space)
+"Z" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/space)
+
+(1,1,1) = {"
+V
+a
+d
+v
+P
+d
+V
+a
+d
+o
+o
+o
+"}
+(2,1,1) = {"
+V
+a
+d
+o
+o
+d
+V
+a
+d
+d
+o
+d
+"}
+(3,1,1) = {"
+V
+a
+H
+X
+g
+r
+V
+a
+d
+o
+o
+o
+"}
+(4,1,1) = {"
+V
+a
+H
+X
+g
+U
+V
+a
+d
+o
+o
+o
+"}
+(5,1,1) = {"
+V
+a
+H
+X
+g
+x
+V
+a
+d
+d
+d
+d
+"}
+(6,1,1) = {"
+V
+a
+d
+J
+Z
+D
+V
+a
+a
+a
+a
+o
+"}
+(7,1,1) = {"
+V
+V
+V
+V
+V
+V
+V
+a
+a
+a
+a
+o
+"}
+(8,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+f
+"}
+(9,1,1) = {"
+a
+a
+d
+y
+W
+F
+d
+H
+d
+n
+n
+I
+"}
+(10,1,1) = {"
+a
+a
+d
+R
+k
+Y
+d
+l
+i
+i
+i
+B
+"}
+(11,1,1) = {"
+a
+a
+H
+h
+k
+Y
+H
+M
+i
+A
+t
+K
+"}
+(12,1,1) = {"
+a
+a
+H
+c
+k
+Y
+H
+M
+i
+w
+T
+p
+"}
+(13,1,1) = {"
+a
+a
+H
+C
+k
+Y
+H
+L
+i
+O
+T
+j
+"}
+(14,1,1) = {"
+a
+a
+H
+e
+k
+Y
+d
+Q
+i
+G
+T
+z
+"}
+(15,1,1) = {"
+a
+a
+d
+q
+k
+V
+V
+i
+i
+u
+T
+p
+"}
+(16,1,1) = {"
+a
+a
+d
+H
+d
+V
+d
+t
+t
+d
+d
+d
+"}
+(17,1,1) = {"
+a
+a
+a
+a
+a
+V
+d
+N
+b
+d
+a
+a
+"}
+(18,1,1) = {"
+V
+V
+V
+V
+V
+s
+d
+d
+d
+d
+a
+a
+"}

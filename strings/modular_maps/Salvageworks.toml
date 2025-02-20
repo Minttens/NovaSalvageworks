@@ -1,0 +1,4 @@
+directory = "_maps/map_files/salvageworks/Modularmaints/"
+
+[rooms.servicecargolower]
+modules = ["servicecargolower_1.dmm", "servicecargolower_1.dmm", "servicecargolower_1.dmm"]

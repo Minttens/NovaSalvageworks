@@ -1,0 +1,423 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/plating,
+/area/space)
+"b" = (
+/obj/structure/punching_bag,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet/red,
+/area/space)
+"c" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"d" = (
+/turf/closed/wall,
+/area/space)
+"l" = (
+/obj/structure/weightmachine/weightlifter,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"m" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/carpet/red,
+/area/space)
+"n" = (
+/turf/open/floor/wood/tile,
+/area/space)
+"o" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"q" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/structure/weightmachine/weightlifter,
+/turf/open/floor/carpet/red,
+/area/space)
+"r" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/light/directional/north,
+/turf/open/floor/carpet/red,
+/area/space)
+"s" = (
+/obj/modular_map_root/salvageworks{
+	name = "assistantroutelower";
+	key = "assistantroutelower"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"u" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/tile,
+/area/space)
+"v" = (
+/obj/machinery/light/floor,
+/turf/open/floor/carpet/red,
+/area/space)
+"y" = (
+/obj/structure/weightmachine,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"A" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet/red,
+/area/space)
+"C" = (
+/obj/structure/weightmachine,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"D" = (
+/obj/structure/weightmachine,
+/turf/open/floor/carpet/red,
+/area/space)
+"E" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/wood/tile,
+/area/space)
+"F" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"G" = (
+/obj/structure/punching_bag,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"H" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"K" = (
+/obj/structure/weightmachine/weightlifter,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"L" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/carpet/red,
+/area/space)
+"M" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"N" = (
+/turf/open/floor/wood,
+/area/space)
+"O" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"P" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"Q" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"R" = (
+/obj/structure/punching_bag,
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/light/directional/north,
+/turf/open/floor/carpet/red,
+/area/space)
+"S" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/weightmachine/weightlifter,
+/turf/open/floor/carpet/red,
+/area/space)
+"V" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"X" = (
+/obj/structure/weightmachine,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/carpet/red,
+/area/space)
+"Z" = (
+/turf/open/floor/carpet/red,
+/area/space)
+
+(1,1,1) = {"
+V
+V
+V
+V
+V
+V
+V
+a
+d
+o
+o
+o
+"}
+(2,1,1) = {"
+a
+V
+a
+a
+a
+a
+a
+a
+d
+d
+d
+d
+"}
+(3,1,1) = {"
+a
+V
+d
+d
+d
+n
+n
+n
+d
+d
+a
+a
+"}
+(4,1,1) = {"
+a
+V
+d
+S
+n
+n
+n
+n
+n
+d
+a
+a
+"}
+(5,1,1) = {"
+a
+V
+d
+r
+N
+H
+O
+c
+u
+d
+a
+a
+"}
+(6,1,1) = {"
+a
+V
+d
+q
+N
+F
+v
+A
+n
+d
+a
+a
+"}
+(7,1,1) = {"
+V
+V
+n
+n
+N
+F
+Z
+A
+n
+d
+V
+a
+"}
+(8,1,1) = {"
+a
+V
+n
+n
+N
+F
+Z
+A
+n
+d
+V
+a
+"}
+(9,1,1) = {"
+a
+V
+d
+l
+N
+F
+Z
+A
+n
+a
+V
+a
+"}
+(10,1,1) = {"
+a
+V
+d
+r
+N
+F
+v
+A
+n
+a
+V
+a
+"}
+(11,1,1) = {"
+a
+V
+d
+K
+N
+M
+P
+Q
+E
+d
+V
+a
+"}
+(12,1,1) = {"
+a
+V
+d
+n
+N
+N
+N
+n
+n
+d
+V
+a
+"}
+(13,1,1) = {"
+a
+V
+d
+G
+N
+N
+X
+O
+y
+d
+V
+a
+"}
+(14,1,1) = {"
+a
+V
+d
+R
+N
+N
+F
+v
+Z
+d
+V
+a
+"}
+(15,1,1) = {"
+a
+V
+d
+b
+N
+N
+C
+Z
+D
+d
+V
+a
+"}
+(16,1,1) = {"
+a
+V
+d
+d
+n
+n
+d
+Z
+Z
+d
+V
+a
+"}
+(17,1,1) = {"
+a
+V
+a
+a
+a
+a
+d
+L
+m
+d
+V
+a
+"}
+(18,1,1) = {"
+V
+V
+V
+V
+V
+s
+d
+d
+d
+d
+V
+V
+"}
